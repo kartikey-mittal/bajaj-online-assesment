@@ -61,7 +61,7 @@ const DoctorCard = ({ doctor }) => {
 
          
           <div className="mt-4 flex justify-end">
-            <button className="border border-blue-500 text-blue-600 text-sm font-medium px-4 py-1.5 rounded-md hover:bg-blue-50 transition-colors">
+            <button style={{color:"#045da5",paddingLeft:'25px',paddingRight:"25px"}} className="border border-[#045da5] text-blue-600 text-sm font-medium px-4 py-1.5 rounded-md hover:bg-blue-50 transition-colors">
               Book Appointment
             </button>
           </div>
